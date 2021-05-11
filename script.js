@@ -10,8 +10,8 @@ const   getNewQuotes=()=>{
     quoteData=orgData[rnum];
     quotes.innerText=`${orgData[rnum].text}`;
     quoteData.author==null
-        ?(author.innerText='UnKnown')
-        :(author.innerText=`${orgData[rnum].author}`);
+        ?(author.innerText='- UnKnown')
+        :(author.innerText=`- ${orgData[rnum].author}`);
 }
 const getQuotes=async () =>{
     const api="https://type.fit/api/quotes";
