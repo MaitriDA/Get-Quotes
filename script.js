@@ -18,15 +18,11 @@ const sharewhatsapp=()=>{
     window.open(whatsappPost)
 }
 
-// const tweetNow=()=>{
-//     let tweetPost=`https://twitter.com/intent/tweet?text=${data} By ${dataAut}`;
-//     window.open(tweetPost)
-// }
-
 const tweetNow=()=>{
-    let tweetPost=`https://www.linkedin.com/shareArticle?url=${'https://fontawesome.com/icons/whatsapp?style=brands'}&title=${'Hello'}`;
+    let tweetPost=`https://twitter.com/intent/tweet?text=${data} By ${dataAut}`;
     window.open(tweetPost)
 }
+
 //Generating Random Number
 const   getNewQuotes=()=>{
     let rimage=Math.floor(Math.random()*32);
